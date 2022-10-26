@@ -1,0 +1,13 @@
+CRUD REST api for storaging files(images) using GridFS/Multer
+
+Upload a file (body must contain file:%image%)
+POST localhost:8080/api/v1/files/upload
+
+Get uploaded file
+GET localhost:8080/api/v1/files/:filename
+
+Delete uploaded file
+DELETE localhost:8080/api/v1/files/:filename
+
+Get all available files (Does not work properly yet)
+GET localhost:8080/api/v1/files
